@@ -9,7 +9,7 @@ class Charls < Formula
 
   def install
     args = std_cmake_args
-    args << "-DCMKAE_BUILD_TYPE=Release"
+    args << "-DBUILD_SHARED_LIBS=ON -DCHARLS_BUILD_TESTS=OFF -DCHARLS_BUILD_FUZZ_TEST=OFF -DCHARLS_BUILD_SAMPLES=OFF"
 
     system "cmake", *args
     system "make", "install"
