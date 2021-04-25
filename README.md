@@ -1,9 +1,21 @@
-# Team-charls Charls
+# homebrew-tap
 
-## How do I install these formulae?
-`brew install team-charls/charls/<formula>`
+Homebrew formulae that allow installation of Team-Charls projects through the [Homebrew](https://brew.sh/) package manager.
+At the moment the only supported project is CharLS.
 
-Or `brew tap team-charls/charls` and then `brew install <formula>`.
+## Installation
+
+```bash
+brew tap team-charls/tap
+brew install charls
+```
+
+or
+
+```bash
+brew install team-charls/tap/charls
+```
 
 ## Documentation
+
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
