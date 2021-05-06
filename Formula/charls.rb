@@ -8,10 +8,11 @@ class Charls < Formula
   depends_on "cmake" => :build
 
   def install
-    args = std_cmake_args
-    args << "-DBUILD_SHARED_LIBS=ON -DCHARLS_BUILD_TESTS=OFF -DCHARLS_BUILD_FUZZ_TEST=OFF -DCHARLS_BUILD_SAMPLES=OFF"
-
-    system "cmake", *args
+    system "cmake", ".", *std_cmake_args,
+                         "-DBUILD_SHARED_LIBS=ON",
+                         "-DCHARLS_BUILD_TESTS=OFF",
+                         "-DCHARLS_BUILD_FUZZ_TEST=OFF",
+                         "-DCHARLS_BUILD_SAMPLES=OFF"
     system "make", "install"
   end
 end
