@@ -6,7 +6,10 @@ class Charls < Formula
   license "BSD-3-Clause"
 
   bottle do
-    sha256 cellar: :any, big_sur: "895f797f5001d7a7d0680875c3c9d0f806a9c7b38a8b2bf3714ea239bb3f3fd1"
+    root_url "https://github.com/team-charls/homebrew-tap/releases/download/charls-2.2.0"
+    rebuild 1
+    sha256 cellar: :any,                 catalina:     "cef510c039c7f062820704fe3a7b1611939c060e5685aa88ec7d44930520c062"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "6d34c5f68a3745a2c75162e382bf794d8c1844ebfc6a61fdc97c0ae2bdd4a523"
   end
 
   depends_on "cmake" => :build
