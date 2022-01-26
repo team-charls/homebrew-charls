@@ -1,7 +1,7 @@
 # homebrew-tap
 
 Homebrew formulae that allow installation of Team-Charls projects through the [Homebrew](https://brew.sh/) package manager.
-The only supported project is CharLS v2.3.1.
+The only supported project is CharLS v2.3.1.  
 
 ## Installation
 
