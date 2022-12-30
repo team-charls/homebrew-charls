@@ -1,8 +1,8 @@
 class Charls < Formula
   desc "C++ JPEG-LS library implementation"
   homepage "https://github.com/team-charls/charls"
-  url "https://github.com/team-charls/charls/archive/2.3.1.tar.gz"
-  sha256 "d274107538c70abfce5459c40ed1ec5ef354193ad9e2c55de6293ca358d52e97"
+  url "https://github.com/team-charls/charls/archive/refs/tags/2.4.0.tar.gz"
+  sha256 "721f4fd6a8dc3ec6a334d1c3c15d1cb9faa149afddd0eff703466c20e775c294"
   license "BSD-3-Clause"
 
   bottle do
