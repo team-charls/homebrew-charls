@@ -6,7 +6,7 @@ class Charls < Formula
   license "BSD-3-Clause"
 
   bottle do
-    root_url "https://github.com/team-charls/homebrew-tap/releases/download/charls-2.3.1"
+    root_url "https://github.com/team-charls/homebrew-tap/releases/download/charls-2.4.0"
     rebuild 1
     sha256 cellar: :any,                 catalina:     "cef510c039c7f062820704fe3a7b1611939c060e5685aa88ec7d44930520c062"
     sha256 cellar: :any_skip_relocation, x86_64_linux: "6d34c5f68a3745a2c75162e382bf794d8c1844ebfc6a61fdc97c0ae2bdd4a523"
