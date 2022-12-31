@@ -7,9 +7,8 @@ class Charls < Formula
 
   bottle do
     root_url "https://github.com/team-charls/homebrew-tap/releases/download/charls-2.4.0"
-    rebuild 1
-    sha256 cellar: :any,                 catalina:     "cef510c039c7f062820704fe3a7b1611939c060e5685aa88ec7d44930520c062"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "6d34c5f68a3745a2c75162e382bf794d8c1844ebfc6a61fdc97c0ae2bdd4a523"
+    sha256 cellar: :any,                 big_sur:      "fcafd52fde8ddf11fcd8432e00aff76716e17e002763398f668603b285917303"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "a8617ce984db6417f79561958563a3583f23aa161a041bb120780acf460c5bb9"
   end
 
   depends_on "cmake" => :build
