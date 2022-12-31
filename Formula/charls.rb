@@ -23,4 +23,3 @@ class Charls < Formula
     system "make", "install"
   end
 end
-
